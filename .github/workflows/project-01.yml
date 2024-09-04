@@ -4,13 +4,13 @@ name: project-01
 #event >> trigger
 on: ["push"]
 
-#jobs
+# jobs
 jobs:
-  #name
+  # name
   test-job:
-    #OS or Platform
+    # OS or Platform
     runs-on: ubuntu-latest
-      #steps
+      # steps
       steps:
       -uses: actions/checkout@v4
       -uses: actions/setup-python@v5
