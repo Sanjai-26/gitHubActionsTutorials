@@ -7,7 +7,6 @@ on: ["push"]
 jobs:
   # name
   test-job:
-    # OS or Platform
     runs-on: ubuntu-latest
       # steps
       steps:
